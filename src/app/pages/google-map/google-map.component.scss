@@ -1,0 +1,31 @@
+.google-map-page{
+    margin: 0px 15px;
+    .header h3{
+        text-align: center;
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .input-fields{
+        .form-header h3{
+
+        }
+        .location{
+             position: relative;               
+        }
+        .location .bi-geo-alt-fill{
+            position: absolute;
+            padding: 10px;
+            pointer-events: none;
+        }
+        /* align icon */
+        .left-addon .bi-geo-alt-fill  { left:  0px;}
+        .right-addon .bi-geo-alt-fill { right: 0px;}
+
+        /* add padding  */
+        .left-addon input  { padding-left:  30px; }
+        .right-addon input { padding-right: 30px; }
+    }
+    agm-map {
+        height: 300px;
+      }
+}
